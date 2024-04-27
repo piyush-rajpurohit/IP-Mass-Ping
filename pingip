@@ -1,0 +1,9 @@
+#!/bin/sh
+while read ip; do
+    if ping -c1 $ip >/dev/null 2>&1; then
+        echo "$ip,UP"
+    else
+        echo "$ip,DOWN"
+    fi
+done < /home/kali/address.txt > /home/kali/output.csv
+
