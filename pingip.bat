@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set INPUT_FILE=C:\Users\piyus\OneDrive\Desktop\address.txt
-set OUTPUT_CSV=C:\Users\piyus\OneDrive\Desktop\output.csv
+set INPUT_FILE=C:\path\of\address.txt
+set OUTPUT_CSV=C:\path\of\output.csv
 
 if not exist "%INPUT_FILE%" (
     echo Input file "%INPUT_FILE%" not found.
