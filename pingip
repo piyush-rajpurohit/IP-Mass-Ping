@@ -5,5 +5,5 @@ while read ip; do
     else
         echo "$ip,DOWN"
     fi
-done < /home/kali/address.txt > /home/kali/output.csv
+done < /path/of/address.txt > /path/of/output.csv
 
